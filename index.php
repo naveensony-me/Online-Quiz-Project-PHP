@@ -89,7 +89,7 @@ if (isset($_SESSION['login_active'])) {
               </form>
 
               <div class="py-4 text-center">
-                Join now, <a href="signup.php" class="link">Sign Up</a>
+                New User Registration <a href="signup.php" class="link">Sign Up</a>
               </div>
 
             </div>
