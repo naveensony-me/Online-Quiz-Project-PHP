@@ -24,7 +24,7 @@ if (!isset($_SESSION['login_active'])) {
 <body>
   <section class="main-section">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="blue">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="dashboard.php">Quiz</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">

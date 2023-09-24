@@ -1,4 +1,4 @@
-<!-- Coded by https://beproblemsolver.com  Visit for more such code -->
+
 <?php
 require_once("connect.php");
 require_once("function.php");
@@ -47,7 +47,7 @@ if (isset($_POST['signup'])) {
           <div class="box rounded">
             <div class="img-2"></div>
             <div class="login-box p-5">
-              <h2 class="pb-4">Sign Up</h2>
+              <h2 class="pb-4" align="center">Sign Up</h2>
               <form action="" method="post">
                 <div class="mb-4">
                   <input type="text" class="form-control" placeholder="Enter Name" name="name" required>
@@ -64,7 +64,7 @@ if (isset($_POST['signup'])) {
               </form>
 
               <div class="py-4 text-center">
-                <a href="index.php" class="link">Login</a>
+                <a href="index.php" class="link"><b>Login</b></a>
               </div>
 
             </div>
@@ -77,6 +77,6 @@ if (isset($_POST['signup'])) {
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<!-- Coded by https://beproblemsolver.com  Visit for more such code -->
+
 
 </html>
