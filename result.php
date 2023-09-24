@@ -6,9 +6,7 @@ session_start();
 if (!isset($_SESSION['login_active'])) {
   header("Location: index.php");
   exit();
-}
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
